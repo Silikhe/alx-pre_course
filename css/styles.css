@@ -11776,3 +11776,11 @@ html {
 .tooltip.bs-tooltip-top .arrow::before {
   border-top-color: #007bff !important; /* Style the arrow color */
 }
+
+.bi-download {
+  color: #1a1e21;
+}
+
+.download-icon-container a:hover .bi-download {
+  color: #007bff;
+}
