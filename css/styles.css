@@ -11732,3 +11732,47 @@ html {
     left: -2vw;
   }
 }
+
+
+
+.error-image {
+  max-width: 720px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.error-image h1 {
+  font-size: 120px;
+  margin: 48px auto 20px;
+}
+
+.error-msg-container {
+  margin: 18px auto 30px auto;
+  max-width: 800px;
+  width: 80%;
+  text-align: center;
+}
+
+.error-msg-container h1 {
+  font-size: 56px;
+  max-width: 560px;
+  margin: auto auto 48px;
+}
+
+/* Other Styling */
+
+.styled-tooltip {
+  border-bottom: 1.5px dashed #0000ff; /* Blue dashed underline */
+  cursor: help; /* Help cursor */
+}
+
+.tooltip-inner {
+  background-color: #007bff; /* Blue background color for the tooltip */
+  color: #fff; /* White text color for the tooltip content */
+  max-width: 100px; /* Set maximum width for the tooltip */
+}
+
+.tooltip.bs-tooltip-top .arrow::before {
+  border-top-color: #007bff !important; /* Style the arrow color */
+}
