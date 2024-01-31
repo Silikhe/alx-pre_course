@@ -5,6 +5,13 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+import { Carousel, initMDB } from "mdb-ui-kit";
+
 $(document).ready(function () {
     $('[data-bs-toggle="tooltip"]').tooltip();
   });
+
+  // Initialization for ES Users
+
+initMDB({ Carousel });
